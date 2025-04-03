@@ -16,7 +16,7 @@ Another base64 encoded hexstring. It is only relevant for generating the signatu
 
 ### Part 3: Signature ID
 
-Not really a signature ID, but that's what it's called in the code. It is actually a certificate identifier. Private keys will get rotated every three months and this identifier tells you which certificate to use. This is the only part that is not encoded in any way. More information about the certificates are [here (in German)](https://www.bmi.gv.at/607/Reisepass.aspx)
+Not really a signature ID, but that's what it's called in the code. It is actually a certificate identifier. Private keys will get rotated every three months and this identifier tells you which certificate to use. This is the only part that is not encoded in any way. More information about the certificates are [here](https://www.bmi.gv.at/Downloads/csca.aspx).
 
 ### Part 4: MRZ
 
