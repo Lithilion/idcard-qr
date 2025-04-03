@@ -68,16 +68,24 @@ Full URL: https://api.check-at.gv.at/api/v2/certificates
 
 ### /api/v2/documents
 
-Returns some kind of document directory. At the time of writing only has one entry.
+Returns some kind of document directory.
 
 Full URL: https://api.check-at.gv.at/api/v2/documents
 
 ```json
-[{
-  "document_id": 1,
-  "name": "Personalausweis",
-  "steps_updated_at": "2021-08-17T15:52:09.908791Z"
-}]
+[
+{"batch_number":"A16","name":"Personalausweis","steps_updated_at":"2023-11-21T10:10:00+01:00"},
+{"batch_number":"A17","name":"Personalausweis","steps_updated_at":"2023-11-21T10:10:00+01:00"},
+{"batch_number":"A18","name":"Personalausweis","steps_updated_at":"2023-11-21T10:10:00+01:00"},
+{"batch_number":"A19","name":"Personalausweis","steps_updated_at":"2023-11-21T10:10:00+01:00"},
+{"batch_number":"A20","name":"Personalausweis","steps_updated_at":"2023-11-21T10:10:00+01:00"},
+{"batch_number":"notpass","name":"Notpass","steps_updated_at":"2021-04-30T12:55:20.000003+02:00"},
+{"batch_number":"D10","name":"Reisepass","steps_updated_at":"2023-11-17T13:00:00+01:00"},
+{"batch_number":"O10","name":"Reisepass","steps_updated_at":"2023-11-17T13:00:00+01:00"},
+{"batch_number":"P10","name":"Reisepass","steps_updated_at":"2023-11-17T13:00:00+01:00"},
+{"batch_number":"R10","name":"Reisepass","steps_updated_at":"2023-11-17T13:00:00+01:00"},
+{"batch_number":"T10","name":"Reisepass","steps_updated_at":"2023-11-17T13:00:00+01:00"}
+]
 ```
 
 ### /api/v2/steps/1
